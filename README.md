@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/product-preview-card-component-R651k82wYj)
+- Live Site URL: [Live Site](https://delone-femproductpreview.netlify.app)
 
 ## My process
 
