@@ -46,6 +46,7 @@ p {
 h1 {
     font-family: var(--fraunces);
     font-weight: 700;
+    color: var(--very-dark-blue);
     width: 200px;
     line-height: 1;
     margin-bottom: 2.1875rem;
@@ -87,6 +88,49 @@ button {
     font-size: 0.875rem;
     color: var(--white);
     vertical-align: middle;
+    transition: cursor 0.15s, background-color 0.15s;
+}
+
+/* Hover States */
+button:hover {
+    cursor: pointer;
+    background-color: hsl(158, 40%, 12%);
+}
+
+/* Mobile Design */
+@media only screen and (max-width: 23.5rem) {
+    #main-card {
+        flex-direction: column;
+    }
+
+    #product-info {
+        width: 21.25rem;
+        height: 26.25rem;
+        border-radius: 0 0 3% 3%;
+    }
+
+    p {
+        margin-bottom: 1.25rem;
+    }
+
+    h1 {
+        margin-bottom: 1.25rem;
+    }
+
+    h3 {
+        margin-bottom: 1.25rem;
+    }
+
+    #price-info {
+        margin-bottom: 1.25rem;
+    }
+
+    #img-container {
+        width: 21.25rem;
+        height: 14.875rem;
+        border-radius: 3% 3% 0 0;
+        background-image: url("../images/image-product-mobile.jpg")
+    }
 }
 
 :root {
